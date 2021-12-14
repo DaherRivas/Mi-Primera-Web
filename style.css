@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+.rojo {
+    color: red;
+  }
+  .azul {
+    color: blue;
+  }
+  
+  .header-1 {
+    border: 5px ridge grey;
+    background-color: white;
+    opacity: 85%;
+    padding: 3px;
+  }
+  body {
+    background-image: url(Panini.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+    padding: 15px;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Roboto, sans serif";
+    color: black;
+  }
+  .welcome {
+    font-family: "Roboto cursive";
+    text-align: center;
+    color: white;
+  }
+  .container-fluid {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #333;
+    opacity: 85%;
+    font-family: "Roboto, sans serif";
+    font-size: 150%;
+    cursor: pointer;
+  }  
+  img {
+    margin: 5px;
+    width: 200px;
+    height: 155px;
+    padding: 10px;
+    float: left;
+    object-fit: cover;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+  }
+  .links {
+    color: rgb(255, 255, 255);
+  }
+
+  li {
+    display: inline-block;
+    padding: 5px;
+  }
+  li :hover {
+    background-color: rgb(42, 68, 105);
+  }
+  .royal {
+    background: rgba(18, 17, 17, 0.48);
+    border: 5px solid black;
+  }
+  p {
+    color: white;
+    font-size: 135%;
+    font-family: "Open Sans";
+  }
+  .panini {
+    background: rgba(18, 17, 17, 0.48);
+    font-family: "Open Sans";
+    border: 5px solid black;
+  }
+  .jojo {
+    background: rgba(18, 17, 17, 0.48);
+    border: 5px solid black;
+
+  }
+  .button {
+    background-color: rgb(82, 80, 75);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: bottom;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .d-flex {
+      display: inline-flex;
+  }
+  .form {
+      background-color: rgba(18, 17, 17, 0.48);
+      border: 5px solid black;
+      border-radius: 5px;
+      font-family: 'sans-serif';
+      color: white;
+      text-align: center;
+  }
+  .form-label { 
+      border: 3px ridge grey;
+      border-radius: 2px;
+  }
+  .form-inline {
+    display: inline-flex;
+    float: right;
+    
+  }
+  .slide {
+      margin-top: 10px;
+  }
+  .slide img{
+      width: 60vh;
+      height: 65vh;
+  }
+  
+  .box-footer {
+      border: 3px solid black;
+      font-family: "Roboto-MediumItalic";
+      font-size: large;
+      text-align: center;
+      color: #fafafa;
+      grid-column: auto;
+      background-color: rgba(25, 22, 22, 0.54)
+  }
+  
+  .container1{ 
+   background-color: rgba(18, 17, 17, 0.48);
+   border: 5px solid black;
+ }
+ .container2{ 
+ background-color: rgba(18, 17, 17, 0.48);
+ border: 5px solid black;
+}
+
+ .beer{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   float: right;
+ }
+ h4 {
+   text-align: center;
+   color: rgb(131, 10, 10);
+ }
+ .jamon{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ }
+   
+  @media only screen and (max-width: 1200px) {
+    /*For mobile phones:*/
+    [col*="col-"] {
+      width: 100%;
+    }
+  }
